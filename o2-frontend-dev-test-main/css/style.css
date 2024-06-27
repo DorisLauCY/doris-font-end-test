@@ -1,0 +1,62 @@
+:root {
+    --font-base: Roboto, sans-serif;
+    --bg-color-primary: #2E3142;
+    --text-color-primary: #2E3142;
+    --link-color-primary: #1696E0;
+    --button-bg-color-primary: #1696E0;
+    --button-text-color-primary: white;
+}
+.album{
+    /* background-color: #F7F8FA; */
+    background-color: #e7e7e7;
+}
+.card{
+    border: none;
+    background-color: inherit;
+}
+.card-body a{
+    text-decoration: underline;
+}
+.menu{
+    color: #fff;
+}
+.menu a{
+    color: #fff;
+}
+footer{
+    background-color: #2E3142;
+    color:#fff;
+}
+footer a{
+    color: #fff;
+    font-size: smaller;
+}
+footer .border-bottom{
+    border-bottom: 1px #ccc solid;
+}
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .menu{
+        display: none;
+    }
+ }
+ /* @media (min-width: 580px) { 
+    .navbar-toggler{
+        display: none;
+    }
+ } */
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    /* .navbar-toggler{
+        display: none;
+    } */
+ }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { ... }
+/* 
+// Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { ... }
+
+/* // Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width */
